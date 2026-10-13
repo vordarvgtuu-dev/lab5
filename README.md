@@ -45,9 +45,7 @@ long double rasshet_beta(long double x, long double y, long double z) {
 
     // arcsin^2(z) - |x - y|
     long double part2 = powl(asinl(z), 2) - fabsl(x - y);
-
     long double result = part1 * part2;
-
     return fabsl(result);
 }
 
