@@ -21,6 +21,7 @@
 	- Вывести вычисленное значение `beta` с точностью до 6 знаков после запятой.
 ## 2. Реализация программы
 
+```
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <windows.h> 
@@ -48,7 +49,7 @@ long double rasshet_beta(long double x, long double y, long double z) {
     long double result = part1 * part2;
     return fabsl(result);
 }
-
+```
 ## 3. Результаты работы программы
 
 Программа расчета функции beta
